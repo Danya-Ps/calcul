@@ -1,6 +1,6 @@
 
 #include "T1.h"
-#include "..\calc\c1.h"
+#include "calc\c1.h"
 
 int getop(char[]);
 void push(double);
