@@ -7,10 +7,10 @@ int getch(void) /* берем символ */
 {
 	return (bufp > 0) ? buf[--bufp] : getchar();
 }
-void ungetch(int с) /* возвращаем символ на ввод */
+void ungetch(int c) /* возвращаем символ на ввод */
 {
 	if (bufp >= BUFSIZE)
 		printf("ungetch: слишком много символов\n");
 	else
-		buf[bufp++] = с;
+		buf[bufp++] = c;
 }
