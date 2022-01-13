@@ -6,4 +6,4 @@
 
 (прикреплен где то ниже)
 
-  
+  [![CMake](https://github.com/Danya-Ps/calcul/actions/workflows/cmake.yml/badge.svg?branch=main)](https://github.com/Danya-Ps/calcul/actions/workflows/cmake.yml)
