@@ -1,7 +1,6 @@
 #include "c1.h"
 
-int getch(void);
-void ungetch(int);
+
 /* getop: получает следующий оператор или операнд */
 int getop(char s[])
 {

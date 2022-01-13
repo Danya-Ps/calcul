@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include <ctype.h>
 
+int getch(void);
+void ungetch(int);
+int getop(char []);
 
-#define MAXSIZ 100 /* макс. размер операнда или оператора */
+#define MAXSIZ 10 /* макс. размер операнда или оператора */
 #define NUMBER '0' /* признак числа */
-#define BUFSIZE 100
+#define BUFSIZE 10

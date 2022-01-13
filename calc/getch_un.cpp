@@ -13,4 +13,4 @@ void ungetch(int c) /* возвращаем символ на ввод */
 		printf("ungetch: слишком много символов\n");
 	else
 		buf[bufp++] = c;
-}
+}
